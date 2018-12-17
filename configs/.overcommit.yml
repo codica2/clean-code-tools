@@ -1,0 +1,22 @@
+PreCommit:
+  ALL:
+    problem_on_unmodified_line: ignore
+    required: false
+    quiet: false
+  RuboCop:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures
+  SlimLinter:
+    enabled: true
+    command: ['slim-lint', 'app/views/']
+  ScssLint:
+    enabled: true
+    required: true
+    command: ['bundle', 'exec', 'scss-lint']
+    on_warn: fail
+  EsLint:
+    required_executable: 'npm'
+    enabled: true
+    required: true
+    command: ['./node_modules/.bin/eslint']
+    on_warn: fail

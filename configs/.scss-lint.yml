@@ -1,0 +1,15 @@
+linters:
+  ColorVariable:
+    enabled: false
+  NestingDepth:
+    enabled: false
+  PseudoElement:
+    enabled: false
+  SelectorDepth:
+    enabled: false
+  ImportantRule:
+    enabled: false
+  QualifyingElement:
+    enabled: false
+  VendorPrefix:
+    enabled: false
