@@ -1,0 +1,52 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  TargetRubyVersion: 2.5.1
+  Exclude:
+    - 'db/**/*'
+    - 'bin/*'
+    - 'config/**/*'
+    - 'public/**/*'
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - 'node_modules/**/*'
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
+Metrics/LineLength:
+  Max: 200
+
+Metrics/ClassLength:
+  Max: 350
+
+Metrics/ModuleLength:
+  Max: 350
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/CyclomaticComplexity:
+  Max: 7
+
+Rails:
+  Enabled: true
+
+Rails/InverseOf:
+  Enabled: false
