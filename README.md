@@ -1,4 +1,4 @@
-# Linters congiguration
+# Linters configuration
 ![](rubocop.gif)
 ## Why we use linters?
 Lint is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. So we don't need to spend time for code syntax checking, linters can do it for us. 
