@@ -1,7 +1,7 @@
 # Linters congiguration
 ![](rubocop.gif)
 ## Why we use linters?
-Lint is a tool that analyze source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. So we dont need to spend time for code syntax checking, linters can do it for us. 
+Lint is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. So we don't need to spend time for code syntax checking, linters can do it for us. 
 ## Linters libraries
 * [Rubocop](https://github.com/rubocop-hq/rubocop)
 * [ES-lint](https://github.com/eslint/eslint)
@@ -9,7 +9,7 @@ Lint is a tool that analyze source code to flag programming errors, bugs, stylis
 * [Slim-lint](https://github.com/sds/slim-lint)
 * [Overcommit](https://github.com/brigade/overcommit)
 ## Rubocop
-[Rubocop](https://github.com/rubocop-hq/rubocop) is a Ruby static code analyzer and formatter, based on the community Ruby style guide
+[Rubocop](https://github.com/rubocop-hq/rubocop) is a Ruby static code analyzer and formatter, based on the Ruby community style guide.
 
 RuboCop is extremely flexible and most aspects of its behavior can be tweaked via various configuration options.
 ### Installation
@@ -40,7 +40,7 @@ After that, you can run ESLint on any file or directory like this:
 ## SCSS-lint 
 [SCSS-lint](https://github.com/brigade/scss-lint) is a configurable tool for writing clean and consistent SCSS
 ### Installation
-Add to your Gemfile
+Add to your Gemfile:
 ```ruby
 gem 'scss_lint'
 ```
@@ -57,7 +57,7 @@ scss-lint app/assets/stylesheets/**/*.css.scss
 ## Slim-lint 
 [Slim-lint](https://github.com/sds/slim-lint) is a configurable tool for analyzing Slim templates
 ### Installation
-Add to your Gemfile
+Add to your Gemfile:
 ```ruby
 gem 'slim_lint'
 ```
@@ -68,10 +68,10 @@ slim-lint app/views/
 [Slim-lint config example](configs/.slim-lint.yml)
 
 ## Overcommit
-[Overcommit](https://github.com/brigade/overcommit) is a fully configurable and extendable Git hook manager
+[Overcommit](https://github.com/brigade/overcommit) is a fully configurable and extendable Git hook manager.
 
 ### Installation
-Overcommit is installed via RubyGems. It is strongly recommended that your environment support running gem install without requiring sudo privileges. Using a Ruby version manager like rbenv or rvm can help here.
+Overcommit is installed via RubyGems. It is strongly recommended that your environment supports running gem install without requiring sudo privileges. Using a Ruby version manager like rbenv or rvm can help here.
 ```sh
 gem install overcommit
 ```
